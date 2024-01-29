@@ -1,0 +1,7 @@
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: gray;
+    height: 50px;
+}
