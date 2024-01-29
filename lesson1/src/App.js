@@ -5,6 +5,7 @@ import Button from "./components/button/Button";
 import Exemple from "./components/Exemple"
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import User from "./components/Users/user";
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <div>
         <Header navbar={navbar}/>
-        <h1>hello world</h1>
+        <User som={10}/>
         <Component text={"Component"}/>
         <Component2 text={'Component'}/>
         <Button text={'Delete'}/>
