@@ -1,0 +1,16 @@
+.todo {
+    width: 600px;
+    height: 100px;
+    border: 1px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.completed{
+    text-decoration: line-through;
+    background-color: #a6ef8b;
+    box-shadow: 2px 2px 5px rgba(1, 1, 1, 0.7); /* Тень */
+
+}
